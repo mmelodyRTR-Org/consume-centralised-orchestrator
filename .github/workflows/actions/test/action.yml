@@ -1,0 +1,9 @@
+name: Test (sample)
+
+runs:
+  using: composite
+  steps:
+    - name: Test & push (sample placeholder)
+      shell: bash
+      run: |
+        echo "testing..."
