@@ -1,0 +1,10 @@
+name: Build (sample)
+description: Sample build action that builds and pushes an image, outputs ref + digest.
+
+runs:
+  using: composite
+  steps:
+    - name: Build & push (sample placeholder)
+      shell: bash
+      run: |
+        echo "Building..."
